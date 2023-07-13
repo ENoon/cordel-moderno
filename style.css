@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'Passion One', cursive;
+  --fonte3: 'Sriracha', cursive;
+}
+
+header{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 6vw 10vw 5vw 10vw;
+}
+
+header > h1{
+  font-size: 10vw;
+  font-family: var(--fonte2);
+  font-weight: bold;
+
+}
+
+header > p{
+  font-size: 1.5vw;
+}
+
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+  font-family: var(--fonte3);
+  font-size: 3.5vw;
+}
+
+section.imagem {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#q1{
+  background-image: url(imagens/background001.jpg);
+  background-position: right center;
+}
+
+section#q2{
+  background-image: url(imagens/background002.jpg);
+  background-position: right center;
+}
+
+section > p {
+  padding-bottom: 2em;
+}
+
+article.dimg{
+  display: inline-block;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-shadow: 1px 1px 0px black;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
